@@ -1,0 +1,412 @@
+
+/* здесь шапка */
+.header{
+    background-color: rgb(37, 37, 37);
+    height: 100px;
+    
+}
+
+.header_text_1{
+    margin-left:  150px ; 
+    margin-top: -65px;  
+    font-size: 50px; 
+    color: rgb(9, 133, 126);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.header_text_2{
+    margin-left: 1000px; 
+    margin-top: -90px;  
+    font-size: 20px; 
+    color: rgb(231, 231, 231);
+}
+
+.header_text_3{
+    font-size: 100px; 
+    position: absolute; 
+    left: 3800px; 
+    top: 120px; 
+    color: rgb(231, 231, 231);
+}
+
+.foto_insta{
+    position: absolute; 
+    left: 4500px; 
+    height: 100px;
+}
+
+.logo{
+    width: 100px;
+    height: 100px;
+}
+
+
+/* Крнец шапки */
+
+.icon{
+    background-color: rgb(0, 126, 126);
+    height: 600px;
+    margin: 0 auto;
+    background-image: url(./фото/b45.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.icon_text_1{
+    color: rgb(0, 105, 109);
+    font-size: 50px;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.icon_text_2{
+    font-size: 40px; 
+    position: absolute; 
+    top: 150px; 
+    left: 30px;
+}
+
+
+
+.white{
+    background-color: rgb(255, 255, 255);
+    height: 600px;
+    margin: 0 auto;
+    opacity: 0.5;
+}
+
+.text_2{
+    font-size: 50px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    margin: 100px;
+}
+
+
+.checkbokx{
+height: 400px;
+width: 300px;
+background-color: black;
+position: absolute;
+top: 130px;
+left: 900px;
+}
+
+.checkbokx_text_1{
+    color: rgb(204, 204, 204); 
+    font-size: 20px;
+    margin-left: 20px;
+}
+
+.checkbokx_text_2{
+    color: rgb(204, 204, 204); 
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+.checkbokx_text_3{
+    color: rgb(204, 204, 204); 
+    font-size: 20px; 
+    margin-left: 20px;
+}
+
+.name{
+    width: 200px;
+    height: 20px;
+    margin-left: 40px;
+    font-size: 20px;
+}
+
+.zayavka{
+    height: 30px;
+    width: 210px;
+    margin: 30px;
+    margin-left:40px;
+    font-size: 20px;
+    background-color: rgb(255, 153, 0);
+    color: #f1dcb3;
+    cursor: pointer;
+}
+
+.zayavka:active{
+    background-color: rgb(255, 189, 90);
+}
+
+.body_serviz{
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 1000px;
+    height: 800px;
+    margin-left: 200px;
+}
+
+.servis_1{
+    margin-left: 30px; 
+    height: 300px; 
+    width: 200px; 
+
+}
+.servis_2{
+    margin-left: 60px; 
+    height: 300px; 
+    width: 200px; 
+}
+.servis_3{
+    margin-left: 90px; 
+    height: 300px; 
+    width: 200px; 
+}
+.servis_4{
+    margin-left: 30px; 
+    height: 300px; 
+    width: 200px; 
+}
+.servis_5{
+    margin-left: 60px; 
+    height: 300px; 
+    width: 200px; 
+}
+.servis_6{
+    margin-left: 90px; 
+    height: 300px; 
+    width: 200px; 
+}
+
+.servis_text_1{
+    display: block;
+    font-size: 20px; 
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.text_box{
+background-color: rgb(255, 255, 255);
+height: 300px;
+width: 1200px;
+position: absolute;
+top: 750px;
+left: 10px;
+text-align: center;
+border: 3px solid rgb(20, 20, 20);
+}
+
+.text_4{
+    font-size: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+/* фото были разного размера пришлось каждому задать подходяши размер */
+.servis_foto_1{height: 200px; }
+
+.servis_foto_2{height: 200px; margin-left: -30px;}
+
+.servis_foto_3{height: 190px; }
+
+.servis_foto_4{height: 160px; margin-top:30px; }
+
+.servis_foto_5{height: 200px; }
+
+.servis_foto_6{height: 160px; margin-top:30px;}
+
+.text-bloc{
+    margin-top: 400px;
+}
+
+.servis_text{
+    font-size: 50px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+ 
+.servis_text_1{
+    font-size: 30px;
+}
+.servis_text_2{
+    font-size: 30px;
+}
+.servis_text_3{
+    font-size: 30px;
+}
+.servis_text_4{
+    font-size: 30px;
+}
+.servis_text_5{
+    font-size: 30px; 
+}
+.servis_text_6{
+    font-size: 30px;
+}
+
+
+.servis_border{
+    border: 10px solid rgb(12, 12, 12);
+    border-radius: 5%;
+}
+
+.servis_name{
+    font-size: 50px;
+     margin-left: 50px;
+}
+
+.servis_order{
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.link{
+    font-size: 30px;
+    color: rgb(0, 0, 0);
+    text-decoration: none; /* это чтобы убрать линию */
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 10px;
+}
+/* на второй стронице появился баг */
+
+.button_link_3{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(236, 236, 236); 
+    width: 300px; 
+    height: 30px; 
+    margin-top: 400px; 
+    margin-left: 200px;
+    border-radius: 10%;
+}
+
+.button_link_2{
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(80, 43, 43); 
+    width: 1300px; 
+    height: 300px; 
+    margin-top: 100px; 
+    margin-left: 2000px;
+    border-radius: 10%;
+}
+
+.button_link{
+    display: flex;
+    justify-content: center; 
+    background-color: rgb(236, 236, 236); 
+    width: 500px; 
+    height: 50px; 
+    margin-top: 100px; 
+    margin-left: 50px;
+    border-radius: 10%;
+}
+
+
+
+.items{
+    font-size: 40px; 
+    color: #1a1a1a;
+    position: absolute;
+    top: 200px;
+    left: 20px;
+}
+
+.servis{
+width: 190px;
+height: 180px;
+border: 10px solid rgb(22, 22, 22);
+border-radius: 10%;
+margin: 10px;
+}
+
+.servis:hover{
+    border: 50px solid rgb(94, 94, 94);
+
+}
+.servis:active{
+    border: 50px solid rgb(170, 170, 170);
+}
+
+.body_2st{
+   margin-top: 300px;
+   display: flex;
+   flex-wrap: wrap;
+}
+
+.footer{
+    height: 100px;
+    width: 1230px;
+    background-color: black;
+    margin-top: 300px;
+}
+
+.footer_text_1{
+    margin: auto; 
+    font-size: 50px; 
+    color: rgb(231, 231, 231);
+}
+
+.footer_text_2{
+    margin-top: -50px; 
+    margin-left: 900px ; 
+    font-size: 30px; 
+    color: rgb(231, 231, 231);
+}
+
+/* адаптив */
+@media (max-width: 375px){
+    .header{
+        background-color: rgb(37, 37, 37);
+        height: 50px;
+        
+    }
+    
+    .header_text_1{
+        margin-left: 90px ; 
+        margin-top: -20px;  
+        font-size: 20px; 
+        color: rgb(9, 133, 126);
+    }
+    
+    .header_text_2{
+        margin-left: 370px; 
+        margin-top: -70px;  
+        font-size: 10px; 
+        color: rgb(231, 231, 231);
+    }
+    
+    .header_text_3{
+        font-size: 10px; 
+        position: absolute; 
+        left: 380px; 
+        top: 10px; 
+        color: rgb(231, 231, 231);
+    }
+    
+    .foto_insta{
+        position: absolute; 
+        left: 450px; 
+        height: 10px;
+    }
+    
+    
+    .icon{
+        background-color: rgb(0, 126, 126);
+        height: 300px;
+        margin: 0 auto;
+        background-image: url(./фото/b45.jpeg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .icon_text_1{
+        color: rgb(0, 105, 109);
+        font-size: 20px;
+        position: absolute;
+        left: 10px;
+        top: 50px;
+        font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    }
+    
+    .icon_text_2{
+        font-size: 20px; 
+        position: absolute; 
+        top: 70px; 
+        left: 10px;
+    }
+    
+}
